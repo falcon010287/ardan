@@ -1,0 +1,116 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+#wrapper {
+	margin: 0;
+	padding: 0;
+}
+
+/* USERBAR */
+#wrapper #userbar {
+	margin: 0;
+	padding: 5px 20px;
+	
+	background-color: Navy;
+	color: White;
+	
+	text-align: right;
+}
+
+#wrapper #userbar #menu {
+	margin: 0 50px;
+	display: inline-flex; 
+}
+
+#wrapper #userbar #menu ul {
+	list-style: none;
+}
+
+#wrapper #userbar #menu ul li {
+	display: inline;
+}
+
+#wrapper #userbar #menu ul li a {
+	padding: 5px 10px;
+	color: #dddddd;
+	font-weight: bold;
+	
+	text-decoration: none;
+}
+
+#wrapper #userbar #menu ul li a:hover {
+	padding: 5px 10px;
+	background-color: Green;
+}
+
+#wrapper #userbar #lang {
+	display: inline-flex;
+	color: Yellow;
+}
+
+#wrapper #userbar #lang a {
+	padding: 0px 10px;
+	
+	font-weight: bold;
+	color: Yellow;
+	
+	text-decoration: none;
+}
+
+#wrapper #userbar #user {
+	display: inline-flex;
+}
+
+#wrapper #userbar #user a {
+	padding: 0px 10px;
+	
+	font-weight: bold;
+	color: White;
+	
+	text-decoration: none;
+}
+
+#wrapper #userbar #user a:hover {
+	font-weight: bold;
+	color: Yellow;
+}
+/* END USERBAR */
+
+/* MENU */
+#wrapper>#menu {
+	text-align: center;
+	border-bottom: 2px solid #666666;
+}
+
+#wrapper #menu ul {
+	list-style: none;
+}
+
+#wrapper #menu ul li {
+	display: inline;
+}
+
+#wrapper #menu ul li a {
+	padding: 5px 10px;
+	color: #666666;
+	font-weight: bold;
+	
+	text-decoration: none;
+}
+
+#wrapper #menu ul li a:hover {
+	padding: 5px 10px;
+	background-color: Green;
+	color: White;
+}
+/* END MENU */
+
+#wrapper #content {
+	margin: 50px 50px;
+	padding: 0;
+	background-color: White;
+}
